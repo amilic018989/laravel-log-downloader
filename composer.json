@@ -16,7 +16,9 @@
             "email": "info@aleksandarmilic.rs"
         }
     ],
-    "require": {},
+    "require": {
+        "shogy/laravel-log-downloader": "*"
+    },
     "extra": {
         "laravel": {
             "providers": [
