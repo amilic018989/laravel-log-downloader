@@ -2,6 +2,7 @@
     "name": "shogy/laravel-log-downloader",
     "description": "Package that will easily grab all log files from your laravel project.",
     "type": "library",
+    "minimum-stability": "dev",
     "license": "MIT",
     "autoload": {
         "psr-4": {
