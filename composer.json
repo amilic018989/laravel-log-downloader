@@ -3,6 +3,7 @@
     "description": "Package that will easily grab all log files from your laravel project.",
     "type": "library",
     "minimum-stability": "dev",
+    "prefer-stable": true
     "license": "MIT",
     "autoload": {
         "psr-4": {
