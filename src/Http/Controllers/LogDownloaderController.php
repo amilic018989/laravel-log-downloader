@@ -3,12 +3,13 @@
 namespace Shogy\LaravelLogDownloader\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
+use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use ZipArchive;
 
-class LogDownloadController extends Controller
+class LogDownloadController extends BaseController
 {
     public function downloadLogs(): BinaryFileResponse|JsonResponse
     {
