@@ -1,6 +1,6 @@
 # Laravel Log Downloader
 
-[![Latest Stable Version](https://poser.pugx.org/shogy/laravel-log-downloader/v/stable)](https://packagist.org/packages/shogy/laravel-log-downloader)
+![Latest Stable Version](https://img.shields.io/packagist/v/shogy/laravel-log-downloader?label=stable)
 [![Total Downloads](https://poser.pugx.org/shogy/laravel-log-downloader/downloads)](https://packagist.org/packages/shogy/laravel-log-downloader)
 [![License](https://poser.pugx.org/shogy/laravel-log-downloader/license)](https://packagist.org/packages/shogy/laravel-log-downloader)
 
