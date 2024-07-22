@@ -1,9 +1,9 @@
 {
     "name": "shogy/laravel-log-downloader",
-    "description": "Package that will easily grab all log files from your laravel project.",
+    "description": "Package that will easily grab all log files from your Laravel project.",
     "type": "library",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -17,7 +17,8 @@
         }
     ],
     "require": {
-        "shogy/laravel-log-downloader": "*"
+        "php": "^8.0",
+        "illuminate/support": "^11.0"
     },
     "extra": {
         "laravel": {
