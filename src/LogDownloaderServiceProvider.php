@@ -22,6 +22,6 @@ class LogDownloaderServiceProvider extends ServiceProvider
     public function register()
     {
         // Register the controller
-        $this->app->make('Shogy\LaravelLogDownloader\Http\Controllers\LogDownloadController');
+        $this->app->make('Shogy\LaravelLogDownloader\Http\Controllers\LogDownloaderController');
     }
 }
