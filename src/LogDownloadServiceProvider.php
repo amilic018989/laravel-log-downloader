@@ -8,8 +8,10 @@ class LogDownloaderServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        // Load routes
+        // Load web routes
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        // Load API routes
+        $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
 
         // Publish config file if needed
         $this->publishes([
